@@ -1,0 +1,68 @@
+body {
+  font-family: "Noto Sans KR Medium";
+  font-size: 15px;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.navbar-dark {
+  background-color: #222;
+}
+
+.navbar-dark .navbar-brand {
+  font-family: "Noto Sans KR Black";
+  font-size: 1.7em;
+}
+
+.navbar-dark .navbar-brand img {
+  position: relative;
+  top: -5px;
+}
+
+.navbar-dark .navbar-brand .nav-link {
+  color: #DDD;
+  text-decoration: none;
+}
+
+.navbar-dark .navbar-brand .nav-link.active {
+  color: #DDD;
+  text-decoration: none;
+}
+
+.navbar-dark .navbar-brand .nav-link.active:hover {
+  color: #ddd;
+  text-decoration: underline;
+}
+
+.navbar-dark .navbar-brand .nav-link:hover {
+  color: #ddd;
+  text-decoration: underline;
+}
+
+.card-title {
+  font-size: 5em;
+}
+
+.card-text {
+  font-size: 1.5em;
+}
+
+.bi.bi-youtube {
+  color: red;
+}
+
+.bi.bi-twitch {
+  color: #6441A5;
+}
+
+.bi.bi-discord {
+  color: #5865f2;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,61 @@
+body {
+    font-family: "Noto Sans KR Medium";
+    font-size: 15px;
+}
+
+.container {
+    max-width:1000px
+}
+
+h2 {
+    text-align: center;
+    margin:20px 0
+}
+
+.navbar-dark {
+    background-color: #222;
+    .navbar-brand {
+        font-family:"Noto Sans KR Black";
+        font-size:1.7em;
+        img {
+            position:relative;
+            top:-5px;
+        }
+        .nav-link {
+            color:#DDD;
+            text-decoration: none;
+            &.active {
+                color:#DDD;
+                text-decoration: none;
+                &:hover {
+                    color: #ddd;
+                    text-decoration:underline
+                }
+            }
+            &:hover {
+                color: #ddd;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.card-title {
+    font-size:5em;
+}
+
+.card-text {
+    font-size:1.5em;
+}
+
+.bi {
+    &.bi-youtube {
+        color:red;
+    }
+    &.bi-twitch {
+        color:#6441A5;
+    }
+    &.bi-discord {
+        color:#5865f2;
+    }
+}
