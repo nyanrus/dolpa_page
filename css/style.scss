@@ -1,5 +1,17 @@
+@font-face {
+    font-family: "notokr-m";
+    src: local("NotoSansKR-Medium"),
+    url("fonts/NotoSansKR-Medium.woff") format('woff');
+}
+
+@font-face {
+    font-family: "notokr-b";
+    src: local("NotoSansKR-Black"),
+    url("fonts/NotoSansKR-Black.woff") format('woff');
+}
+
 body {
-    font-family: "Noto Sans KR Medium";
+    font-family: "notokr-m";
     font-size: 15px;
 }
 
@@ -15,17 +27,17 @@ h2 {
 .navbar-dark {
     background-color: #222;
     .navbar-brand {
-        font-family:"Noto Sans KR Black";
+        font-family: "notokr-b";
         font-size:1.7em;
         img {
             position:relative;
             top:-5px;
         }
         .nav-link {
-            color:#DDD;
+            color:#ddd;
             text-decoration: none;
             &.active {
-                color:#DDD;
+                color:#ddd;
                 text-decoration: none;
                 &:hover {
                     color: #ddd;
