@@ -1,11 +1,13 @@
 @font-face {
   font-family: "notokr-m";
   src: local("NotoSansKR-Medium"), url("/fonts/NotoSKR-m.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "notokr-b";
   src: local("NotoSansKR-Black"), url("/fonts/NotoSKR-b.woff2") format("woff2");
+  font-display: swap;
 }
 
 body {
