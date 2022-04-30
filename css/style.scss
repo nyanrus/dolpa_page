@@ -1,73 +1,71 @@
 @font-face {
-    font-family: "notokr-m";
-    src: local("NotoSansKR-Medium"),
-    url("/fonts/NotoSansKR-Medium.woff") format('woff');
+  font-family: "notokr-m";
+  src: local("NotoSansKR-Medium"), url("/fonts/NotoSKR-m.woff2") format("woff2");
 }
 
 @font-face {
-    font-family: "notokr-b";
-    src: local("NotoSansKR-Black"),
-    url("/fonts/NotoSansKR-Black.woff") format('woff');
+  font-family: "notokr-b";
+  src: local("NotoSansKR-Black"), url("/fonts/NotoSKR-b.woff2") format("woff2");
 }
 
 body {
-    font-family: "notokr-m";
-    font-size: 15px;
+  font-family: "notokr-m";
+  font-size: 15px;
 }
 
 .container {
-    max-width:1000px
+  max-width: 1000px;
 }
 
 h2 {
-    text-align: center;
-    margin:20px 0
+  text-align: center;
+  margin: 20px 0;
 }
 
 .navbar-dark {
-    background-color: #222;
-    .navbar-brand {
-        font-family: "notokr-b";
-        font-size:1.7em;
-        img {
-            position:relative;
-            top:-5px;
-        }
-        .nav-link {
-            color:#ddd;
-            text-decoration: none;
-            &.active {
-                color:#ddd;
-                text-decoration: none;
-                &:hover {
-                    color: #ddd;
-                    text-decoration:underline
-                }
-            }
-            &:hover {
-                color: #ddd;
-                text-decoration: underline;
-            }
-        }
+  background-color: #222;
+  .navbar-brand {
+    font-family: "notokr-b";
+    font-size: 1.7em;
+    img {
+      position: relative;
+      top: -5px;
     }
+    .nav-link {
+      color: #ddd;
+      text-decoration: none;
+      &.active {
+        color: #ddd;
+        text-decoration: none;
+        &:hover {
+          color: #ddd;
+          text-decoration: underline;
+        }
+      }
+      &:hover {
+        color: #ddd;
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
 .card-title {
-    font-size:5em;
+  font-size: 5em;
 }
 
 .card-text {
-    font-size:1.5em;
+  font-size: 1.5em;
 }
 
 .bi {
-    &.bi-youtube {
-        color:red;
-    }
-    &.bi-twitch {
-        color:#6441A5;
-    }
-    &.bi-discord {
-        color:#5865f2;
-    }
+  &.bi-youtube {
+    color: red;
+  }
+  &.bi-twitch {
+    color: #6441a5;
+  }
+  &.bi-discord {
+    color: #5865f2;
+  }
 }

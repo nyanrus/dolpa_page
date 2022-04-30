@@ -1,11 +1,11 @@
 @font-face {
   font-family: "notokr-m";
-  src: local("NotoSansKR-Medium"), url("/fonts/NotoSansKR-Medium.woff") format("woff");
+  src: local("NotoSansKR-Medium"), url("/fonts/NotoSKR-m.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "notokr-b";
-  src: local("NotoSansKR-Black"), url("/fonts/NotoSansKR-Black.woff") format("woff");
+  src: local("NotoSansKR-Black"), url("/fonts/NotoSKR-b.woff2") format("woff2");
 }
 
 body {
@@ -69,7 +69,7 @@ h2 {
 }
 
 .bi.bi-twitch {
-  color: #6441A5;
+  color: #6441a5;
 }
 
 .bi.bi-discord {
