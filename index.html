@@ -22,17 +22,26 @@
 
       gtag("config", "G-LJWSSF7F98");
     </script>
-
+    <script src="./bootstrap.min.js"></script>
     <link rel="icon" href="./logo-circle-80.webp" />
     <title>도루파 홍보관</title>
   </head>
   <body>
-    <nav class="shadow navbar navbar-expand-lg navbar-dark">
+    <nav class="container-fluid shadow navbar navbar-expand navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="#none">
           <img src="./logo-circle-80.webp" width="40px" height="40px" />
           Dolpa
         </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="navbar-item">
+              <a class="nav-link" href="https://github.com/nyanrus/nyanrus.github.io" style="font-size: 1.5em">
+                <i class="bi bi-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -89,6 +98,7 @@
           © 2022 NyanRus<br />
           Icon by 딸끼향
         </p>
+        <p class="text-muted" style="text-align: center; font-size: 0.9em">This site using Google Analytics.</p>
       </footer>
     </div>
   </body>
